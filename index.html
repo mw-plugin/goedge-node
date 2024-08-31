@@ -1,0 +1,29 @@
+<style>
+.overflow_hide {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+</style>
+
+<div class="bt-form">
+	<div class='plugin_version'></div>
+	<div class="bt-w-main">
+		<div class="bt-w-menu">
+			<p class="bgw" onclick="pluginService('goedge-node');">服务</p>
+			<p onclick="pluginInitD('goedge-node');">自启动</p>
+			<p onclick="pluginConfigTpl('goedge-node',$('.plugin_version').attr('version'));">配置修改</p>
+			<p onclick="goedgeReadme();">相关说明</p>
+			
+		</div>
+		<div class="bt-w-con pd15">
+			<div class="soft-man-con" style="height: 520px; overflow: auto;"></div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript">
+$.getScript( "/plugins/file?name=goedge-node&f=js/goedge-node.js", function(){
+	pluginService('goedge-node', $('.plugin_version').attr('version'));
+});
+</script>

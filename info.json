@@ -1,0 +1,17 @@
+{
+	"sort": 7,
+	"ps": "CDN & WAF集群管理系统[node]【个人版】",
+	"name": "goedge-node",
+	"title": "GoEdge管理系统",
+	"shell": "install.sh",
+	"versions":["1.4.3"],
+	"tip": "soft",
+	"checks": "server/goedge-node",
+	"path": "server/goedge-node",
+	"display": 1,
+	"author": "goedge-node",
+	"date": "2024-08-31",
+	"home": "https://goedge.cloud",
+	"type": 0,
+	"pid": "5"
+}
