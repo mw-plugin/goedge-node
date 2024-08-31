@@ -4,8 +4,8 @@ After=network.target
 
 [Service]
 Type=forking
-WorkingDirectory={$SERVER_PATH}/goedge-admin
-ExecStart={$SERVER_PATH}/goedge-admin/bin/edge-admin start
+WorkingDirectory={$SERVER_PATH}/goedge-node
+ExecStart={$SERVER_PATH}/goedge-node/bin/edge-node start
 ExecReload=/bin/kill -USR2 $MAINPID
 Restart=on-failure
 
