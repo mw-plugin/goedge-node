@@ -38,6 +38,9 @@ def getInitDFile():
 
 
 def getConf():
+    path = getServerDir() + "/configs/api_node.yaml"
+    if os.path.exists(path):
+        return path
     path = getServerDir() + "/configs/api_node.template.yaml"
     return path
 
