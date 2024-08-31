@@ -34,7 +34,7 @@ Install_App()
 	GOEDGE_DIR=$serverPath/source/goedge/
 
 	if [ ! -f $GOEDGE_DIR/${FILE_TGZ} ];then
-		wget -O $GOEDGE_DIR/${FILE_TGZ} https://dl.goedge.cloud/edge/v${VERSION}/${FILE_TGZ}
+		wget -O $GOEDGE_DIR/${FILE_TGZ} https://dl.goedge.cloud/edge-node/v${VERSION}/${FILE_TGZ}
 	fi
 	
 	if [ ! -d $GOEDGE_DIR/edge-node ];then
