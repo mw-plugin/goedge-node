@@ -2,7 +2,7 @@
 	"sort": 7,
 	"ps": "CDN & WAF集群管理系统[node]【个人版】",
 	"name": "goedge-node",
-	"title": "GoEdge管理系统",
+	"title": "GoEdge节点",
 	"shell": "install.sh",
 	"versions":["1.4.3"],
 	"tip": "soft",
